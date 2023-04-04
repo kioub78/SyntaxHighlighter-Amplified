@@ -1,0 +1,73 @@
+pre.hljs {
+	border: 0;
+	margin: 20px 0;
+}
+
+pre.hljs code {
+	background-color: transparent;
+    padding: 0;
+	margin: 0;
+}
+
+pre.hljs code table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0;
+}
+
+pre.hljs code table tr:nth-child(even) {
+    background: rgba(0,0,0,0.03);
+}
+
+pre.hljs code table tr.nobg {
+	background: transparent;
+}
+
+pre.hljs code table th, pre.hljs code table td {
+	border: none;
+	overflow: auto;
+}
+
+pre.hljs code table td[data-line-number] {
+	border-right: 3px solid #d4d0c8;
+	padding: 0 15px;
+	text-align: right;
+	width: 1%;
+	font-size: 12px;
+  font-weight: 600;
+}
+
+pre.hljs code table td[data-line-number]::before {
+	color: rgba(0, 0, 0, 0.5);
+	content: attr(data-line-number);
+	display: block;
+}
+
+pre.hljs code table td[data-line-number].highlight {
+	background-color: #d4d0c8; 
+}
+
+pre.hljs code table td.blob-code.highlight {
+	background-color: #c3defe; 
+}
+
+pre.hljs code table td.blob-code {
+	padding: 0 15px;
+}
+
+pre.hljs code table td.blob-code.noidx {
+	padding: 0;
+}
+
+pre.hljs code table td.blob-code pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+pre.hljs code table td.blob-code pre.wrap {
+	white-space: pre-wrap;
+}

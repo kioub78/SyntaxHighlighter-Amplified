@@ -1,0 +1,28 @@
+.shamp-toolbar-dropdown__popover .components-popover__content {
+	margin-left: 0;
+	min-width: 200px;
+}
+
+.shamp-toolbar-dropdown__option {
+	text-align: left;
+	height: auto;
+	min-height: 32px;
+	border-radius: 2px;
+}
+
+.shamp-toolbar-dropdown__option .components-menu-item__item {
+	white-space: normal;
+}
+
+.shamp-toolbar-dropdown__optionis-selected {
+	background-color: #f0f0f0;
+}
+
+.shamp-settings-dropdown {
+	margin-bottom: 16px;
+}
+
+.shamp-settings-dropdown .components-custom-select-control__item {
+	padding: 0 10px;
+    margin: 0;
+}

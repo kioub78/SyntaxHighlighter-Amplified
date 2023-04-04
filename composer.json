@@ -1,0 +1,28 @@
+{
+  "name": "kioub78/syntaxhighlighter-amplified",
+  "description": "WordPress plugin that makes it easy to post syntax-highlighted code snippets. Compatible with AMP pages.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Byron Kiourtzoglou",
+      "email": "byron.kiourtzoglou@javacodegeeks.com"
+    }
+  ],
+  "require": {
+    "scrivo/highlight.php": "v9.18.1.10"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.2",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
+  },
+  "scripts": {
+    "lint": [
+      "phpcs",
+      "composer validate --strict"
+    ],
+    "lint-fix": [
+      "phpcbf"
+    ]
+  }
+}
