@@ -12,7 +12,7 @@ Supports the new Gutenberg editor!
 
 ## Installation
 
-Run `npm install` to install all of the required modules.
+Run `composer install` to install all of the required modules.
 
 ## Credits
 
