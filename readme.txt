@@ -4,6 +4,8 @@ Tags: code, source, sourcecode, php, syntax highlighting, syntax, highlight, hig
 Requires at least: 5.7
 Tested up to: 6.2
 Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Easily post syntax-highlighted code to your site without having to modify the code at all. Compatible with AMP pages.
 
