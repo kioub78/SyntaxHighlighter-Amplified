@@ -12,4 +12,4 @@ Run `composer install` to install all of the required modules.
 
 Created by Byron Kiourtzoglou, [JCG](https://www.javacodegeeks.com/).
 
-MIT license.
+GPLv2 license.
